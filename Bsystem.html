@@ -10,7 +10,9 @@
 
 <link rel="stylesheet" href="reset.css" type="text/css" media="screen">
 <link rel="stylesheet" href="styles.css" type="text/css" media="screen">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
 
 </head>
 
@@ -28,11 +30,10 @@
         </div> 
         <div id="rightside">
             <div id="search">
-                <img src="images/Loupe.svg" alt="Search loupe" class=inverted>
+                <a href="#search"><img src="images/Loupe.svg" alt="Search loupe" class=inverted style="width:60%"></a>
             </div>
             <div id="login">
-                Your area
-                <img src="images/Avatar.svg" alt="Avatar" class=inverted>
+                <div><p>Your area</p></div><div><img src="images/Avatar.svg" alt="Avatar" style="width:20px" class=inverted></div>
             </div>
         </div>
     </div>
@@ -40,7 +41,10 @@
         <div id="splash">
             <div id="introBox">
                 <h2>We make<br>magic!</h2><br>
-                <p>We are a freelance design studio passionate about <br>rethinking how things operate every day.</p>
+                <p>We are a freelance design studio passionate about <br>rethinking how things operate every day.</p><br>
+                <button class="buttonStyle2" type="button">
+                    <p>Meet B_System</p>
+                </button>
             </div>
             <div id="splashImg">
                 <img src="images/manWorking.svg" alt="Man Working">
@@ -56,12 +60,13 @@
             <div id="box1">
                 <div id="howTxt">
                     <h3>How do we do it?</h3><br>
-                    <p>Putting our clients' users at the center of the conversation, and giving solutions from design to complex problems. No matter the size of the project, we use these principles to guide our way to create impact.</p>
+                    <p>Putting our clients' users at the center of the conversation, and giving solutions from design to complex problems. No matter the size of the project, we use these principles to guide our way to create impact.</p><br>
+                    <p>Learn more</p>
                 </div>
             </div>
             <div id="box2"></div>
             <div id="box3">
-                <img src="images/workingDesk.svg" alt="Working desk" style="width:50%" class="center">
+                <img src="images/workingDesk.svg" alt="Working desk" style="width:50%">
             </div>
             <div id="box4">
                 <div id="valuesTxt">
@@ -76,15 +81,18 @@
         <div id="formBox">
             <div id="form">
                 <h3>Contact us!</h3>
+                <br>
                 <p>Please fill out this form to send your message</p>
-                <img src="images/formIMG.png" alt="Image of a form" style="width:40%"">
+                <br>
+                <img src="images/formIMG.png" alt="Image of a form">
             </div>
             <div id="formVisual">
                 <div id="formBox1">
                     <div id="contactPic">
-                        <img src="images/contactWoman.svg" alt="Woman headshot">
-                    </div>
+                        <!--<img src="images/contactWoman.svg" alt="Woman headshot">-->
+                    </div><br>
                     <p>If you have an urgent query you can call us :</p>
+                    <br>
                         <p>T. (+34) 915 805 007</p>
                         <p>F. (+34) 915 806 082</p>
                 </div>
@@ -97,7 +105,10 @@
         </div>
         <div id="ctaBox">
             <div id="cta">
-                <p>Do you want to start with B-system today?</p>
+                <p>Do you want to start with B-system today?</p><br>
+                <button class="buttonStyle2" type="button">
+                    <p>Start with B_System</p>
+                </button>
             </div>
             <div id="ctaButton"></div>
         </div>
@@ -105,17 +116,26 @@
     <div id="footer">
         <div id="mediaBar">
             <div id="mediaLogos">
-                <img src="images/Behance.svg" alt="Behance logo">
-                <img src="images/Youtube.svg" alt="Youtube logo">
-                <img src="images/Pinterest.svg" alt="Pinterest logo">
-                <img src="images/Twitter.svg" alt="Twitter logo">
-                <img src="images/Linkedin.svg" alt="LinkedIn logo">
-                <br>
+                <div id="media1">
+                    <a href="https://www.behance.net" target="_blank"><img src="images/Behance.svg" alt="Behance logo"></a>
+                </div>
+                <div id="media2">
+                    <a href="https://www.youtube.ca" target="_blank"><img src="images/Youtube.svg" alt="Youtube logo"></a>
+                </div>
+                <div id="media3">
+                    <a href="https://www.pinterest.com" target="_blank"><img src="images/Pinterest.svg" alt="Pinterest logo"></a>
+                </div>
+                <div id="media4">
+                    <a href="https://www.twitter.com" target="_blank"><img src="images/Twitter.svg" alt="Twitter logo"></a>
+                </div>
+                <div id="media5">
+                    <a href="https://www.linkedin.com" target="_blank"><img src="images/Linkedin.svg" alt="LinkedIn logo"></a>
+                </div>
             </div>
         </div>
         <div id="footerBar">
             <div id="Blogo">
-                <img src="images/bLogo_white.svg" alt="B_system logo" class=inverted>
+                <img src="images/bLogo_white.svg" alt="B_system logo" class=inverted style="width:75%">
             </div>
         </div>
     </div>
