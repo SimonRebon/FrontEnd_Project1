@@ -320,3 +320,73 @@ div#Blogo{
     /*box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);*/
 }
+
+/** Responsive code **/
+
+@media only screen and (max-width: 1240px){
+
+}
+
+@media only screen and (max-width: 905px){
+    .topnav {
+        display: none;
+    }
+
+    div#whatTxt{
+        width: 80%;
+    }
+
+    div#howTxt{
+        width:80%;
+    }
+
+    div#valuesTxt{
+        width:80%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .topnav {
+        display: none;
+    }
+
+    div#whatTxt{
+        width: 80%;
+    }
+
+    div#box1{
+        flex: 100%;
+    }
+    div#howTxt{
+        width:80%;
+        text-align: center;
+    }
+    div#box2{
+        flex: 100%;
+    }
+    div#box3{
+        flex: 100%;
+    }
+    div#box4{
+        flex: 100%;
+    }
+    div#valuesTxt{
+        width:80%;
+        text-align: center;
+    }
+
+    div#form{
+        flex: 100%;
+        width: 100%;
+    }
+
+    div#formBox1{
+        flex: 100%;
+        /*width: 300px;
+        background-color: #DFF0FF;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 20px;*/
+        /*border: 2px solid red;*/
+    }
+}
