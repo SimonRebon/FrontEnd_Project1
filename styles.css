@@ -49,6 +49,13 @@ div#header{
 	overflow: auto;
     z-index: 999;
 }
+div#burgerMenu{
+    display: none;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 div#logo{
 	width: 150px;
 	height: 28px;
@@ -328,6 +335,9 @@ div#Blogo{
 }
 
 @media only screen and (max-width: 905px){
+    div#burgerMenu{
+        display: flex;
+    }
     .topnav {
         display: none;
     }
@@ -346,6 +356,9 @@ div#Blogo{
 }
 
 @media only screen and (max-width: 600px){
+    div#burgerMenu{
+        display: flex;
+    }
     .topnav {
         display: none;
     }
